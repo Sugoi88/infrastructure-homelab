@@ -44,7 +44,7 @@ The current environment is hosted entirely inside the local homelab and is not p
 | 18 | [IaC Security Scanning](docs/18-iac-security-scanning/README.md) | Checkov, IaC Security, IMDSv2, VPC Flow Logs, Risk Exceptions | Complete |
 | 19 | [Secret Scanning](docs/19-secret-scanning/README.md) | Gitleaks, Secret Detection, Custom Sentinel Rules, Git Privacy | Complete |
 | 20 | [Controlled Terraform Deployment](docs/20-controlled-deployment/README.md) | GitHub Environments, OIDC Deploy Role, Approval Gates, Terraform Apply | Complete |
-
+| 21 | []IAM Policy Evaluation & Least Privilege](dpcs/21-iam-policy-evaluation/README.md) | Evaluated IAM authorization behavior across identity policies, resource policies, permissions boundaries, SCPs, session policies, conditions, role chaining, PassRole, and ABAC. Validated real Terraform plan/deploy roles with IAM Policy Simulator and Access Analyzer. | Complete |
 ---
 
 ## Skills Demonstrated
@@ -291,6 +291,15 @@ Phase VI introduces automated infrastructure validation, AWS-aware Terraform pla
 - [x] Required deployment approval
 - [x] Dedicated deployment IAM role
 - [x] End-to-end Terraform apply from CI
+
+## Phase VII — IAM & Cloud Security
+
+Phase VII strengthens AWS security through IAM policy evaluation, least-privilege access, role delegation, policy analysis, CloudTrail auditing, and GuardDuty threat detection.
+
+- [x] Lab 21 — IAM Policy Evaluation & Least Privilege
+- [ ] Lab 22 — Advanced IAM Least-Privilege Refinement
+- [ ] Lab 23 — CloudTrail Auditing
+- [ ] Lab 24 — GuardDuty & Security Findings
 
 ---
 
